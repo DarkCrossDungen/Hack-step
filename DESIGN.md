@@ -1,18 +1,20 @@
 # DrainSense Design System
 
-DrainSense uses a light-only civic operations style for the Earth Forward prototype. The interface should feel practical outdoors, trustworthy for community organizers, and clear enough for judges to understand in one pass.
+DrainSense uses a light-only professional operations style for the Earth Forward prototype. The interface should feel like a civic work tool: minimal, direct, square-edged, and practical for repeated use.
 
 ## Visual System
 
-- Backgrounds use warm paper and white surfaces: `#FFFDF8`, `#FFFFFF`, `#EEF5F1`.
-- Primary action is river teal: `#0E7C72`.
-- Status colors are functional: leaf green for resolved, marigold for priority, brick red for critical, muted blue for water/map context.
-- Cards and controls use small radii, visible focus rings, and soft offset shadows only on major containers.
-- Typography uses system UI for controls and Georgia for major headings, keeping the prototype dependency-light and Vercel-ready.
+- Backgrounds use restrained neutrals: `#F7F8F5`, `#FFFFFF`, `#F1F3EF`.
+- Primary actions use near-black by default, with river teal `#0B625B` reserved for hover, brand, focus, and environmental state.
+- Status colors are functional only: green for resolved, amber for priority/review, red for critical/unsafe, blue for water context.
+- Surfaces use strict 1px borders, no decorative shadows, and no rounded card language.
+- Controls are square-edged and compact. Pills, soft cards, and decorative map/photo effects should be avoided.
+- Typography uses system UI throughout for a clean operational feel.
 
 ## Product Rules
 
 - No dark UI.
+- No soft rounded dashboard aesthetic.
 - Sample data and demo estimates must be labelled.
 - Public map locations are approximate.
 - Impact only changes after before/after evidence.

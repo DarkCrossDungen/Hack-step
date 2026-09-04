@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* THESIS: DrainSense is an adopt-a-drain operating surface, not a passive eco dashboard. OWN-WORLD: light civic paper, river-teal controls, marigold and brick risk marks, proof-first cards. STORY: a resident report becomes a pre-rain priority, a cleanup route, volunteer evidence, and verified impact. FIRST VIEWPORT: promise at left, live rain-readiness command board at right, judge demo always visible. FORM: pre-rain civic command center, seed 42090861. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md */}
+        {/* THESIS: DrainSense is a professional pre-rain operations console, not a decorative eco dashboard. OWN-WORLD: flat light surfaces, square controls, strict borders, restrained teal, status color only where it carries state. STORY: a resident report becomes a pre-rain priority, a cleanup route, volunteer evidence, and verified impact. FIRST VIEWPORT: direct product promise at left, compact readiness board at right, judge demo visible. FORM: minimal civic command center, seed 42090861. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md */}
         {children}
       </body>
     </html>
