@@ -48,10 +48,10 @@ npm run build
 
 ## Deploy to Vercel
 
-1. Push this folder to GitHub.
-2. Import the repository in Vercel.
-3. Use the default Next.js build settings.
-4. Add future secrets only in Vercel environment variables, never in browser code.
+See `DEPLOYMENT.md` for the exact GitHub and Vercel deployment sequence.
+
+No production environment variables are required for the current prototype.
+Add future secrets only in Vercel environment variables, never in browser code.
 
 ## Truthfulness Rules
 
