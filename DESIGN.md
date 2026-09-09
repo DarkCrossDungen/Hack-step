@@ -1,6 +1,6 @@
 # DrainSense Design System
 
-DrainSense uses a light-only professional operations style for the Earth Forward prototype. The interface should feel like a civic work tool: minimal, direct, square-edged, and practical for repeated use.
+DrainSense uses a light-only professional operations style for the Earth Forward prototype. The interface should feel like a civic work console: minimal, direct, square-edged, and practical for repeated use.
 
 ## Visual System
 
@@ -17,9 +17,9 @@ DrainSense uses a light-only professional operations style for the Earth Forward
 - No soft rounded dashboard aesthetic.
 - Sample data and demo estimates must be labelled.
 - Public map locations are approximate.
-- Impact only changes after before/after evidence.
-- The app must never claim real city, NGO, SMS, WhatsApp Business, AI accuracy, or field-measurement deployment until those are actually configured.
+- Readiness only changes meaningfully after before/after evidence is reviewed.
+- The app must never claim real city, NGO, SMS, WhatsApp Business, AI accuracy, flood prediction, emergency-alert, or field-measurement deployment until those are actually configured.
 
 ## Key Interaction
 
-The signature flow is: resident report -> prototype risk assessment -> coordinator review -> pre-rain queue -> cleanup route -> volunteer proof -> verified impact.
+The signature flow is: rain scenario -> weak-point priority -> action route -> volunteer proof -> reviewed evidence -> readiness update.

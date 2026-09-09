@@ -43,13 +43,13 @@ No production environment variables are required for the current prototype.
 After deployment, test:
 
 - Home page loads.
-- **Judge demo** runs fully.
-- **Report a drain** can submit after adding a sample photo and location.
-- **Rain queue** shows the new report after approval.
-- **Cleanup** route allows join, WhatsApp share, calendar download, and proof upload.
-- **Admin review** can verify resolution.
-- **Impact** updates only after proof.
-- **Reset sample data** returns the app to a clean demo state.
+- **Run judge demo** moves the product to the evidence state.
+- **Report Intake** can submit after adding a sample photo, place, and issue note.
+- **Weak Points** shows the new report in the ranked list and sample map.
+- **Action Plan** shows prioritized cleanup stops, manual team invite copy, calendar download, and proof upload.
+- **Proof Review** can submit after-proof and review a point as resolved.
+- **Demo Evidence** updates only after reviewed proof.
+- **Reset** returns the app to a clean demo state.
 
 ## 4. Devpost Links
 

@@ -1,27 +1,26 @@
 # DrainSense
 
-DrainSense is a light-only Earth Forward hackathon prototype that helps neighborhoods find blocked storm drains before rain, organize safe cleanup routes, and count impact only after before/after proof.
+DrainSense is a light-only Earth Forward hackathon prototype that helps neighborhoods prepare before heavy rain by finding weak drainage points, ranking cleanup priorities, and improving a transparent readiness score only after before/after proof is reviewed.
 
 ## Project Idea
 
-Blocked storm drains can cause local flooding and carry plastic waste into waterways. DrainSense turns one resident report into an accountable action flow:
+Blocked drains, canal choke points, trash buildup, and low-ground roads can turn a normal rain event into street-level flooding. DrainSense turns community observations into an accountable pre-rain action flow:
 
-1. Resident adds a photo placeholder, location, blockage severity, and water-flow state.
-2. The app generates a transparent prototype risk assessment.
-3. A coordinator approves the report into the pre-rain queue.
-4. A cleanup group adopts the drain and creates a route.
-5. Volunteers join, share the event, and download a calendar file.
-6. Before/after proof is submitted.
-7. Impact updates only after evidence is verified.
+1. A sample rain scenario shows heavy rain expected in 18 hours.
+2. Weak points are ranked by practical flood-readiness risk.
+3. A coordinator builds a safe cleanup route for the top priorities.
+4. Volunteers can use the website as the task source of truth.
+5. The group submits before/after proof for completed work.
+6. Readiness improves only after proof is reviewed.
 
 ## Current Build
 
 - Next.js App Router and TypeScript
 - Light civic UI with no dark mode
 - Local state plus browser persistence
-- Judge demo mode for the full report-to-resolution story
-- Report, rain queue, map/list, cleanup, adopt-a-drain, impact, and admin review sections
-- WhatsApp share link and `.ics` calendar download
+- Judge demo mode for the full rain-warning-to-proof story
+- Collapsible left sidebar with Overview, Rain Scenario, Weak Points, Action Plan, Report Intake, Proof Review, Demo Evidence, and Submission Kit
+- Manual team invite copy and `.ics` calendar download
 - Clearly labelled sample/demo data
 
 ## Run Locally
@@ -58,11 +57,11 @@ Add future secrets only in Vercel environment variables, never in browser code.
 - Demo data is sample data.
 - Impact numbers are demo estimates.
 - The app does not claim municipal, NGO, or government adoption.
-- The prototype risk score is not a flood forecast.
+- The readiness score is not a flood forecast.
 - SMS, WhatsApp Business automation, Supabase, and Resend are future integrations until credentials are configured.
 
 ## Suggested Demo Path
 
-Click **Judge demo**. It automatically walks through:
+Click **Run judge demo**. It automatically walks through:
 
-resident report -> coordinator approval -> rain queue -> cleanup route -> proof upload -> verified impact
+rain warning -> weak points -> action route -> proof review -> readiness evidence
